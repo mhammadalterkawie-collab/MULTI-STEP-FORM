@@ -1,0 +1,514 @@
+body {
+    background-color: hsl(206, 94%, 87%);
+}
+
+.code-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.size {
+    width: 800px;
+    height: 500px;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.aside1 {
+    width: 40%;
+    position: relative;
+    z-index: 3;
+}
+
+.aside-div-div {
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    border: solid 3px hsl(228, 100%, 84%);
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    line-height: 1.5;
+    color: hsl(228, 100%, 84%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    color: hsl(231, 11%, 63%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+.p-aside {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    margin-top: -20px;
+    margin-left: 100px;
+    color: white;
+}
+
+.aside-image {
+    height: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 2;
+    pointer-events: none;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.headline-main-div {
+    color: hsl(213, 96%, 18%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-div {
+    width: 60%;
+    height: 90%;
+    position: relative;
+    z-index: 2;
+}
+
+.p-main-div {
+    color: hsl(231, 11%, 63%);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-step1 {
+    width: 90%;
+    border-radius: 10px;
+    height: 8%;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 3;
+    border: solid 1px gray;
+}
+
+.box-step1:focus {
+    outline: hsl(231, 11%, 63%);
+    border: solid 3px gray;
+    border-radius: 15px;
+}
+
+
+
+
+.aside-div-div2 {
+    background-color: hsl(228, 100%, 84%);
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+
+.aside-div-div3 {
+    background-color: hsl(213, 96%, 18%, 0.01);
+    color: hsl(228, 100%, 84%);
+}
+
+
+.Nextbtn {
+    background-color: hsl(213, 96%, 18%);
+    color: hsl(206, 94%, 87%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    margin-top: 40px;
+    margin-left: 320px;
+    position: relative;
+    z-index: 3;
+}
+
+.Nextbtn:hover {
+    background-color: hsl(243, 100%, 62%);
+    color: white;
+}
+
+.alert {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+.step1-box2 {
+    border: solid 1px red;
+}
+
+.step1-box {
+    border: solid 1px gray;
+}
+
+.divs-STEP2 {
+    border-radius: 20px;
+    width: 120px;
+    height: 150px;
+    border: solid 1px hsl(231, 11%, 63%);
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.images-divs-STEP2 {
+    margin-top: 20%;
+}
+
+.divs-STEP2:focus {
+    border: solid 3px hsl(243, 100%, 62%);
+    background-color: hsl(218, 100%, 97%);
+}
+
+div,
+h2,
+p {
+    -webkit-user-select: none;
+}
+
+.div-mothlyearly {
+    width: 400px;
+    height: 40px;
+    background-color: hsl(218, 100%, 97%);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TFswitch-div {
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: hsl(213, 96%, 18%);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.switchdiv {
+    width: 16px;
+    height: 16px;
+    background-color: hsl(218, 100%, 97%);
+    border-radius: 25px;
+    margin-left: 2.8px;
+    display: inline-block;
+}
+
+.switch-label {
+    color: hsl(213, 96%, 18%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+.switch-label2 {
+    color: gray;
+}
+
+.switchdiv2 {
+    background-color: hsl(213, 96%, 18%);
+}
+
+.typedisciption {
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin-top: -40px;
+}
+
+.plantype {
+    color: hsl(213, 96%, 18%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.goback {
+
+    background-color: hsl(218, 100%, 97%);
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    margin-top: 95px;
+    margin-left: -400px;
+    position: absolute;
+
+}
+
+.goback:hover {
+    color: hsl(213, 96%, 18%);
+    background-color: white;
+
+}
+
+.Nextbtn2 {
+    margin-top: 100px;
+}
+
+.goback2 {
+    margin-top: 40px;
+}
+
+.div3-STEP3 {
+    width: 360px;
+    height: 80px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-STEP3 {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    accent-color: hsl(243, 100%, 62%);
+}
+
+.h-adddons {
+    color: hsl(213, 96%, 18%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 45px;
+    font-size: large;
+}
+
+.addons-descrition {
+    color: gray;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.addons-price {
+    color: hsl(243, 100%, 62%);
+    position: absolute;
+    margin-left: 300px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+.thanks {
+    color: hsl(213, 96%, 18%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.thanks-description {
+    color: hsl(231, 11%, 63%);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-right: 50px;
+    
+}
+.thanks-img{
+    margin-left: 160px;
+    margin-top: 120px;
+}
+.div-STEP4{
+  /*  background-color:hsl(218, 100%, 97%) ;*/
+background-color:hsl(218, 100%, 97%);
+    width:360px;
+    height: 200px;
+    border-radius: 15px;
+    justify-content: center;
+}
+.p1-STEP4,.total{
+color: gray;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+margin-left: 10px;
+font-size: large;
+display: inline-block;
+}
+.p2-STEP4,.total-price{
+color:hsl(213, 96%, 18%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 250px; 
+    margin-top: -40px;  
+}
+.p3-STEP4{
+color: hsl(213, 96%, 18%);
+        font-size: larger;
+}
+.p4-STEP4{
+        font-size: larger;
+}
+.div2-STEP4{
+    width: 100px;
+    height: 1px;
+    content: none;
+    flex: 1;
+    background-color: gray;
+    border: solid 2px gray;
+}
+hr{
+    height: 0.5px;
+    background-color: gray;
+    width: 80%;
+}
+.change-Link{
+    position: absolute;
+    margin-top: -20PX;
+    margin-left: 10px;
+    text-decoration:underline;
+    color: GRAY;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.change-Link:hover{
+    font-size: large;
+}
+@media (max-width: 430px) {
+   .p-aside,.aside-image,h5{
+    display: none;
+   }
+   .aside1{
+    display: flex;
+    background-color:none;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: -550px;
+    z-index: -1;
+   }
+   .aside-div-div{
+    margin-left:30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+   }
+
+   .size{
+        width: 350px;
+            height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(0.9);
+    
+   }
+   .Nextbtn {
+    position:absolute;
+    right: -70px;
+    bottom: -100px;
+
+}
+body{
+    background-image: url("images/bg-sidebar-mobile.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.divs-STEP2{
+        width: 250px;
+        height: 80px;
+        display: flex;
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-left: -20px;
+}
+.images-divs-STEP2 {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+ .div-mothlyearly{
+        width: 250px;
+        margin-left: -20px;
+ }
+ .plantype{
+    margin-top: 0px;
+    margin-left: 10px;
+ }
+ .typedisciption{
+    margin-left: 10px;
+ }
+ .goback{
+    position: fixed;
+    right: 230px;
+    bottom: -70px;
+    
+ }
+ .goback2{
+    position: fixed;
+    bottom: -70px;
+ }
+ .div3-STEP3{
+width: 300px;
+height: 80px;
+margin-left: -50px;
+ }
+.h-adddons{
+    margin-bottom: 20px;
+}
+.addons-price{
+    margin-left: 230px;
+    margin-top: 5px;
+}
+.div-STEP4{
+    margin-left: -50px;
+    width: 300px;
+}
+.p2-STEP4{
+    margin-left: 220px;
+}
+.total{
+    margin-left:-40px  ;
+}
+.total-price{
+    margin-left: 175px;
+}
+.thanks-img{
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.thanks{
+    margin-right:-30px;
+    text-align: center;
+}
+.thanks-description{
+    text-align: center;
+    white-space: normal;
+    margin-right:-30px;
+
+}
+
+
+}
